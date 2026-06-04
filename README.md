@@ -27,7 +27,7 @@ This project illustrates the creation and configuration of Virtual Machines (VM)
 
 **1. Access Azure Portal**
 
-Sign in to the [Azure](https://portal.azure.com/) portal and on click "Resource Groups" on the menu to the left hand side of the homepage.
+Sign in to the [Azure](https://portal.azure.com/) portal and select "Resource groups" on the menu to the left hand side of the homepage.
 <img width="726" height="804" alt="1" src="https://github.com/user-attachments/assets/5dd96956-a5e9-456a-b385-d681511fff34" />
 
 
