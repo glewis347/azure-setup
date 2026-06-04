@@ -15,8 +15,8 @@ This project illustrates the creation and configuration of Virtual Machines (VM)
 
 <h2>High-Level Steps</h2>
 
-- Resource Group Creation
-- Windows 10 VM Deployment
+- Create a new Resource Group for this project
+- Using the Azure Virtual MachineSetup and Configure a Windows 10 VM
 - Linux (Ubuntu) VM Deployment  
 - Vnet/Subnet Inspection  
   
