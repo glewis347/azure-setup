@@ -13,7 +13,7 @@ This project illustrates the creation and configuration of Virtual Machines (VM)
 - Windows 10 (21H2)
 - Ubuntu Server 20.04
 
-<h2>Key Concepts Demonstrated</h2>
+<h2>High-Level Steps</h2>
 
 - Azure Virtual Machine deployment  
 - Virtual Network (VNet) configuration  
@@ -21,7 +21,7 @@ This project illustrates the creation and configuration of Virtual Machines (VM)
 - Cross-platform connectivity (Windows & Linux)  
 - Cloud resource organization using Resource Groups  
   
-<h2>Deployment Process</h2>
+<h2>Actions and Observations</h2>
 <img width="387" alt="Screenshot 2025-01-23 at 8 10 04 PM" src="https://github.com/user-attachments/assets/886eb6b5-b6c1-4b4b-ae98-8415a69a6a3b" />
 
 ---
