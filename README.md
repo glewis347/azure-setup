@@ -16,9 +16,9 @@ This project illustrates the creation and configuration of Virtual Machines (VM)
 <h2>High-Level Steps</h2>
 
 - Create a new Resource Group for this project
-- Using the Azure Virtual MachineSetup and Configure a Windows 10 VM
-- Linux (Ubuntu) VM Deployment  
-- Vnet/Subnet Inspection  
+- Setup and Configure a Windows 10 VM
+- Setup and Configure a Linux (Ubuntu) VM  
+- Inspect the Vnet/Subnet  
   
 <h2>Actions and Observations</h2>
 <img width="387" alt="Screenshot 2025-01-23 at 8 10 04 PM" src="https://github.com/user-attachments/assets/886eb6b5-b6c1-4b4b-ae98-8415a69a6a3b" />
