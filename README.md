@@ -1,14 +1,12 @@
-# azure-setup
-Outlining the creation and configuration of Virtual Machines (VM) in a Virtual Network (Vnet)
 <img width="884" alt="Screenshot 2025-01-23 at 7 59 52 PM" src="https://github.com/user-attachments/assets/14983237-8b1a-4703-8a5b-d5f0d3e188f9" />
 
 <h1>Azure Virtual Machine Setup & Configuration</h1>
 
-This project demonstrates how to deploy and configure Azure virtual machines within a shared Virtual Network (VNet) to enable secure communication and foundational cloud infrastructure. This setup involves creating a resource group, deploying a Windows 10 virtual machine, and a Linux (Ubuntu) virtual machine. These components will serve as the base infrastructure for future project tasks. <br />
+This project illustrates the creation and configuration of Virtual Machines (VM) in a Virtual Network (Vnet) using the Microsoft Azure platform. It involves creating a Resource Group, a Windows 10 VM, and a Linux (Ubuntu) VM. The newly created VMs will be situated inside the same Vnet.  This setup will serve as the base infrastructure for my project on Network Traffic Analysis and Network Security Groups. <br />
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute services)
+- Microsoft Azure (Virtual Machines/Compute)
 
 <h2>Operating Systems Used </h2>
 
