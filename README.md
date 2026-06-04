@@ -2,7 +2,7 @@
 
 <h1>Azure Virtual Machine Setup & Configuration</h1>
 
-This project illustrates the creation and configuration of Virtual Machines (VM) in a Virtual Network (Vnet) using the Microsoft Azure platform. It involves creating a Resource Group, a Windows 10 VM, a Linux (Ubuntu) VM, and a Vnet.  This setup will serve as the base infrastructure for my project on Network Traffic Analysis and Network Security Groups. <br />
+This project illustrates the creation and configuration of Virtual Machines (VM) in a Virtual Network (Vnet) using the Microsoft Azure platform. It involves creating a Resource Group, a Windows 10 VM, a Linux (Ubuntu) VM, and a Vnet.  This setup facilitates communication between both Azure VMs, and will serve as the base infrastructure for my project on Network Traffic Analysis and Network Security Groups. <br />
 
 <h2>Environments and Technologies Used</h2>
 
