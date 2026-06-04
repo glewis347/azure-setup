@@ -2,7 +2,7 @@
 Outlining the creation and configuration of Virtual Machines (VM) in a Virtual Network (Vnet)
 <img width="884" alt="Screenshot 2025-01-23 at 7 59 52 PM" src="https://github.com/user-attachments/assets/14983237-8b1a-4703-8a5b-d5f0d3e188f9" />
 
-<h1>Azure Virtual Machine Setup</h1>
+<h1>Azure Virtual Machine Setup & Configuration</h1>
 
 This project demonstrates how to deploy and configure Azure virtual machines within a shared Virtual Network (VNet) to enable secure communication and foundational cloud infrastructure. This setup involves creating a resource group, deploying a Windows 10 virtual machine, and a Linux (Ubuntu) virtual machine. These components will serve as the base infrastructure for future project tasks. <br />
 
