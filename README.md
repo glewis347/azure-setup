@@ -21,9 +21,6 @@ This project illustrates the creation and configuration of Virtual Machines (VM)
 - Inspect the Vnet/Subnet  
   
 <h2>Actions and Observations</h2>
-<img width="387" alt="Screenshot 2025-01-23 at 8 10 04 PM" src="https://github.com/user-attachments/assets/886eb6b5-b6c1-4b4b-ae98-8415a69a6a3b" />
-
----
 
 **1. Access Azure Portal**
 
