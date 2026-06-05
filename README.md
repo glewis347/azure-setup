@@ -97,65 +97,49 @@ Observe that the VM has been created and placed in our Resource Group:
 
 <img width="1874" height="577" alt="image" src="https://github.com/user-attachments/assets/2ceb163d-9b14-455c-b612-5e85ced36941" />
 
-
-
-In the Azure Portal, navigate to Virtual Machines creation and select **+ Create**. 
-- Provide the following details:
-    - **Resource Group**: Select the Resource Group created earlier
-    - **VM Name**: Enter a name for your Windows 10 VM
-    - **Image**: Choose "Windows 10"
-    - **Authentication Type**: Username/Password
-- Configure other settings as needed and click **Review + Create**, and then **Create**
-
-<img width="886" height="957" alt="Screenshot 2026-02-23 215051" src="https://github.com/user-attachments/assets/7b59446d-bc9d-49e0-b7f9-4d25fe46ab69" />
-
-<br>
-<br>
-<br>
-
-In the Networking tab, allow Azure to create a new Virtual Network (VNet) and Subnet, naming the VNet "Lab-Vnet".   
-
-<img width="965" height="580" alt="Screenshot 2026-02-23 215423" src="https://github.com/user-attachments/assets/7b525806-aa2e-44a6-acc9-5d17ac869574" />
-
-<br>
-<br>
-
 **4. Create a Linux (Ubuntu) Virtual Machine**
 
-In the Azure Portal, navigate to Virtual Machines creation and select **+ Create**.
+In the Virtual Machines section select **+ Create** then **Virtual machine**
+
+<img width="1496" height="657" alt="image" src="https://github.com/user-attachments/assets/55af6ede-db2d-4a08-9481-13c3374342f0" />
+
 - Provide the following details:
     - **Resource Group**: Select the same Resource Group used for the Windows 10 VM
-    - **VM Name**: Enter a name for your Linux (Ubuntu) VM
-    - **Image**: Choose "Ubuntu Server"
-    - **Authentication Type**: Username/Password
-- Configure other settings as needed and click **Review + Create**, and then **+ Create**
+    - **Virtual machine Name**: Enter a name for your Linux (Ubuntu) VM
+    - **Region**: (US) East US
+    - **Availability zone**: Zone 3 
+    - **Image**: Ubuntu Server 24.04
 
-<img width="885" height="1169" alt="Screenshot 2026-02-23 220647" src="https://github.com/user-attachments/assets/6d94436c-cf6b-4e02-a452-7dc8dbce2220" />
+ <img width="1034" height="828" alt="image" src="https://github.com/user-attachments/assets/b40677bf-bb2a-4ded-b658-f843074646ca" />
 
-<br>
-<br>
-<br>
+Select the "Password" radio button for the **Authentication type** and proceed to create a username and password for the Linux VM. Select **Next:Disks**
 
-In the **Networking** tab, select the previously created Virtual Network and make sure the subnet matches the one used by the Windows 10 VM. 
-Using the same Virtual Network (VNet) for both the Windows and Linux virtual machines is important because it allows them to communicate securely over the same private internal network, enabling connectivity testing, shared services, and proper network interaction within the lab environment.
+<img width="1020" height="878" alt="image" src="https://github.com/user-attachments/assets/31088fcc-7237-4d45-9589-4f6784321f9e" />
 
-<img width="918" height="850" alt="Screenshot 2026-02-23 220436" src="https://github.com/user-attachments/assets/11a25637-5b95-452b-b3db-649ddff3bddf" />
+Select **Next:Networking**
 
-<br>
-<br>
+<img width="1019" height="877" alt="image" src="https://github.com/user-attachments/assets/27038d38-f0c6-4aef-81ad-fac93505e17e" />
 
-**5. Verify Setup**
+In the **Networking** Tab, select the previously created **Virtual network** and make sure the **Subnet** matches the one used by the Windows 10 VM. 
+Using the same Vnet for both the Windows and Linux VMs is important because it allows both VMs to communicate securely over the same private internal network, and will lay the foundation for our future networking labs.
+Select **Review + create**
 
-- Ensure both Virtual Machines are in the same Virtual Network and Subnet for proper communication. 
+<img width="1028" height="876" alt="image" src="https://github.com/user-attachments/assets/2f3c13b7-a8fb-47d3-845b-43b02d01b626" />
 
-After deployment, both virtual machines were successfully created and are running within the same Resource Group and Virtual Network. These components provide the foundational infrastructure for upcoming project tasks.
+Select **Create**
 
-<img width="910" height="329" alt="Screenshot 2026-02-24 185452" src="https://github.com/user-attachments/assets/c46a5d2a-972f-427b-bd32-f8109ccfdf08" />
+<img width="807" height="875" alt="image" src="https://github.com/user-attachments/assets/85dc4b18-62b6-40f4-a94f-fccd0a868023" />
 
+**5. Verify Setup and Configuration**: 
 
+Observe that both VMs are now created and confirm that they belong to the same Resource Group:
 
+<img width="1501" height="417" alt="image" src="https://github.com/user-attachments/assets/50ba06da-73d3-4772-b477-a7b47fb9aa15" />
 
+For both VMs, observe that they are connected to the same Vnet/subnet, and observe their Private IP addresses:
 
-<h2>Purpose</h2>
+<img width="1050" height="651" alt="image" src="https://github.com/user-attachments/assets/0015a7c6-eebf-4b33-8268-a239710d09ee" />
 
-The purpose of this project is to build a foundational Azure cloud environment by deploying and configuring virtual machines within the same Virtual Network and Subnet. This setup enables secure internal communication and serves as a base for future networking, security, and traffic analysis tasks.
+<img width="1036" height="667" alt="image" src="https://github.com/user-attachments/assets/1b2ec2ed-2a22-4dbf-ab0e-752713ae545c" />
+
+Both VMs are now successfully created and are running within the same Resource Group and Virtual Network.
