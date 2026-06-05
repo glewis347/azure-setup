@@ -53,6 +53,37 @@ Select **Create**.
 
 **3. Create a Windows 10 Virtual Machine**
 
+On the Menu to the left of the page, select "Virtual machines"
+
+<img width="695" height="797" alt="image" src="https://github.com/user-attachments/assets/61a74554-baf9-4325-8387-fe0c25639c2e" />
+
+Here, you will see that there are no VMs created (yet). To create the VM, select **+ Create** -> **Virtual machine**
+
+<img width="1644" height="857" alt="image" src="https://github.com/user-attachments/assets/b9a42723-1fa7-431a-815f-b2182b46c0dd" />
+
+To setup and configure the Windows VM, provide the following details:
+- **Resource Group**: Select the Resource Group created earlier (RG-Project)
+- **Virtual machine name**: Windows-VM (or any name of your choosing)
+- **Region**: (US) East US
+- **Availability zone**: Zone 3
+- **Image**: Windows 10 (22H2)
+
+<img width="1095" height="819" alt="image" src="https://github.com/user-attachments/assets/f732b603-f3ff-4931-8cba-4019a7ef3fab" />
+
+Continuing setup:
+- **Size**: Standard_DC2ds_v3 - 2 vcpus, 16 GiB memory
+- **Username**: labuser (or any username of your choosing)
+- **Password**: choose a secure password
+Click the checkbox in the Licensing section, then select **Next:Disks**
+
+<img width="1043" height="877" alt="image" src="https://github.com/user-attachments/assets/e06d0d57-6e68-41a9-b5ab-aa58cd8cafe6" />
+
+Select **Next:Networking**
+
+<img width="1022" height="881" alt="image" src="https://github.com/user-attachments/assets/a921327e-eab0-40ef-b022-39a7456c2b2c" />
+
+
+
 In the Azure Portal, navigate to Virtual Machines creation and select **+ Create**. 
 - Provide the following details:
     - **Resource Group**: Select the Resource Group created earlier
