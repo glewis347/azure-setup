@@ -10,7 +10,7 @@ This project illustrates the creation and configuration of Virtual Machines (VM)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
+- Windows 10 (22H2)
 - Ubuntu Server 24.04
 
 <h2>High-Level Steps</h2>
