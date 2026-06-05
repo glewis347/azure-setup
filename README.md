@@ -82,6 +82,21 @@ Select **Next:Networking**
 
 <img width="1022" height="881" alt="image" src="https://github.com/user-attachments/assets/a921327e-eab0-40ef-b022-39a7456c2b2c" />
 
+In the **Virtual network** field, select **Create new** and provide the following details to create the Vnet:
+- **Name**: Lab-Vnet (or any name of your choosing)
+Select **OK**
+Creating a Virtual Network (VNet) is important because it creates a private and secure network environment for the virtual machines to communicate with each other.
+
+<img width="1917" height="881" alt="image" src="https://github.com/user-attachments/assets/51a05e57-107f-437f-9110-84c850234a90" />
+
+Select **Create**
+
+<img width="994" height="874" alt="image" src="https://github.com/user-attachments/assets/f35e135a-5fdb-4acb-b709-6a5c61fe800a" />
+
+Observe that the VM has been created and placed in our Resource Group:
+
+<img width="1874" height="577" alt="image" src="https://github.com/user-attachments/assets/2ceb163d-9b14-455c-b612-5e85ced36941" />
+
 
 
 In the Azure Portal, navigate to Virtual Machines creation and select **+ Create**. 
@@ -99,7 +114,6 @@ In the Azure Portal, navigate to Virtual Machines creation and select **+ Create
 <br>
 
 In the Networking tab, allow Azure to create a new Virtual Network (VNet) and Subnet, naming the VNet "Lab-Vnet".   
-Adding a Virtual Network (VNet) is important because it creates a private and secure network environment for Azure resources like virtual machines to communicate with each other.
 
 <img width="965" height="580" alt="Screenshot 2026-02-23 215423" src="https://github.com/user-attachments/assets/7b525806-aa2e-44a6-acc9-5d17ac869574" />
 
