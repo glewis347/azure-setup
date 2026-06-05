@@ -34,11 +34,15 @@ Sign in to the [Azure](https://portal.azure.com/) portal and select "Resource gr
 **2. Create a Resource Group**
 
 
-Within the Azure Portal, navigate to Resource Groups creation and select **+ Create**. Provide a name and region for the Resource Group, then select **Review + Create**, followed by **Create**.
+Within the Azure Portal, navigate to Resource Groups creation and select **+ Create**.
 
 <img width="1698" height="804" alt="Screenshot 2026-06-04 at 3 29 25 PM" src="https://github.com/user-attachments/assets/ebf94a89-52e6-49a9-8882-9899bc5e0106" />
 
+Provide a name and region for the Resource Group, then select **Review + Create**.
+
 <img width="989" height="867" alt="Screenshot 2026-06-04 at 3 37 14 PM" src="https://github.com/user-attachments/assets/e71bbeae-5ce3-4dfd-9486-5446b212c99b" />
+
+Select **Create**.
 
 <img width="634" height="865" alt="Screenshot 2026-06-04 at 3 41 02 PM" src="https://github.com/user-attachments/assets/b247850f-c3cf-40bb-bc2d-ee760152d615" />
 
